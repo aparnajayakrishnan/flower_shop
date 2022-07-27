@@ -1,0 +1,239 @@
+section{
+    padding: 2rem 9%;
+}
+
+.home{
+    background-position: left;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius:  5rem; 
+    background: #333;
+    color: #fff;
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+
+}
+.btn:hover{
+    background: deeppink;
+
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./flowerimages/Flower-Wallpaper-HD-Free-download-620x388.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+.home .content{
+    max-width: 50rem;
+}
+
+.home .content h3{
+    font-size: 4rem;
+    color: #333;
+    font-weight: lighter;
+    
+}
+
+.home .content span{
+    font-size: 2rem;
+    color: deeppink;
+    padding: 1rem 0;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+
+
+.home .content p{
+    font-size: 1.5rem;
+    color: #333;
+    padding: 1rem 0;
+    line-height: 1.5;
+    font-style: italic ;
+    font-weight: bold;
+}
+.about{
+    background-color: burlywood;
+}
+
+.heading{
+    font-weight: lighter;
+    color: #333;
+    text-align: center;
+    padding: 1rem;
+    margin: 2 rem 0;
+    background-color:  rgba(255,51,153,.05);
+}
+
+.heading span{
+    color: crimson;
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+}
+
+.about .row .videocontainer{
+    flex: 1 1 40rem;
+    position: relative;
+}
+
+
+.about .row .videocontainer video{
+    width: 100%;
+    border: 1.5rem solid #fff;
+    border-radius: .5rem;
+    box-shadow: 0.5rem 1rem rgba(0,0,0,.1);
+    height: 100%;
+    object-fit: cover;
+}
+.about .row .videocontainer h3{
+    position: absolute;
+    top: 50%; transform: translateY(-50%);
+    font-size: 3rem;
+    background-color: #fff;
+    width: 100%;
+    padding: 1rem 2rem;
+    text-align: center;
+    
+}
+
+
+.about .row.content{
+    flex: 1 1 40rem;
+}
+
+.about .row .content h3{
+    font-size: 2rem;
+    color: lightcoral;
+}
+
+.about .row .content p{
+    font-size: 1.5rem;
+    color: black;
+    padding: .5rem 0;
+    padding-top: 1rem;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+
+
+
+
+#dd{
+
+    color:black;
+    background-color: lightcoral;
+    font-weight: lighter;
+
+    padding: 1rem;
+    
+}
+
+#i3{
+    color: black;
+}
+#i3:hover{
+    color:red;
+}
+#b1{
+    background-color: beige;
+    text-align: right;
+    font-weight: bold;
+}
+
+
+#p1{
+    font-style: italic;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+#nn{
+    box-shadow: 5px 5px 20px;
+    box-sizing: border-box;
+
+}
+
+#tt{
+    color: burlywood;
+    background-color: black;
+    font-weight: lighter;
+}
+
+.contact .row .pa{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.contact .row form{
+    flex: 1 1 40rem;
+    padding: 2rem 2.5rem;
+    box-shadow: 0.5rem 1.5 rem rgba(0,0,0,.1);
+    border: .1rem solid rgba(0,0,0,.1);
+    background: #fff;
+    border-radius: .5rem;
+}
+
+.contact .row .image{
+    flex: 1 1 40rem;
+}
+
+
+.contact .row .image img{
+    width: 100%;
+}
+
+.contact .row form .box{
+    padding: 1rem;
+    font-size: 1.7rem;
+    color: #333;
+    text-transform: none;
+    border: .1rem solid rgba(0,0,0,.1);
+    border-radius: .5rem;
+    margin: .7rem 0;
+    width: 100%;
+}
+
+.contact .row form .box:focus{
+    border-color: var(--pink);
+}
+
+
+.contact .row form textarea{
+
+    height: 15rem;
+    resize: none;
+}
+
+#tt{
+    background-color: lavenderblush;
+}
+
+#hr{
+    width: 20rem;
+    color: black;
+}
+
+
+
+    
+
