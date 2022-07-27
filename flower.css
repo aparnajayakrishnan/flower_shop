@@ -234,6 +234,12 @@ section{
 }
 
 
+#video{
+    width: 80%;
+    max-width: 1000px;
+    min-width: 320px;
+}
+
 
     
 
