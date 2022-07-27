@@ -235,9 +235,11 @@ section{
 
 
 #video{
+    display: flex;
     width: 80%;
     max-width: 1000px;
     min-width: 320px;
+    height: calc(.5625 80vh);
 }
 
 
